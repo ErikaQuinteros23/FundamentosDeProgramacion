@@ -60,5 +60,5 @@ void salarios (int horas, int horasextras)
     }
 
     cout << endl << endl;
-    
+
 }
