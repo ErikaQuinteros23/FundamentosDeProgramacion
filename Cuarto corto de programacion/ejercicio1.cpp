@@ -38,34 +38,34 @@ char codificacion(char frase[], int i)
 {
     char codificar = frase[i];
 
-    if(frase[i] == 'm'){
+    if(frase[i] == 'm' || frase[i] == 'M'){
         codificar = '0';
     }
-    if(frase[i] == 'u'){
+    if(frase[i] == 'u' || frase[i] == 'U'){
         codificar = '1';
     }
-    if(frase[i] == 'r'){
+    if(frase[i] == 'r' || frase[i] == 'R'){
         codificar = '2';
     }
-    if(frase[i] == 'c'){
+    if(frase[i] == 'c' || frase[i] == 'C'){
         codificar = '3';
     }
-    if(frase[i] == 'i'){
+    if(frase[i] == 'i' || frase[i] == 'I'){
         codificar = '4';
     }
-    if(frase[i] == 'e'){
+    if(frase[i] == 'e' || frase[i] == 'E'){
         codificar = '5';
     }
-    if(frase[i] == 'l'){
+    if(frase[i] == 'l' || frase[i] == 'L'){
         codificar = '6';
     }
-    if(frase[i] == 'a'){
+    if(frase[i] == 'a' || frase[i] == 'A'){
         codificar = '7';
     }
-    if(frase[i] == 'g'){
+    if(frase[i] == 'g' || frase[i] == 'G'){
         codificar = '8';
     }
-    if(frase[i] == 'o'){
+    if(frase[i] == 'o' || frase[i] == 'O'){
         codificar = '9';
     }
 
