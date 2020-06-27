@@ -27,6 +27,8 @@ int main(void)
     return 0;
 }
 
+//llenado de matriz
+
 void matriz(float tabla[][5], int estudiantes)
 {
     for (int i=0; i<estudiantes; i++){
@@ -37,6 +39,8 @@ void matriz(float tabla[][5], int estudiantes)
         cout << endl;
     }   
 }
+
+//calculo de nota final
 
 void resultado(float tabla[][5], int estudiantes)
 {
