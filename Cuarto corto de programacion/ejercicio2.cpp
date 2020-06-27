@@ -14,7 +14,7 @@ int main(void)
     float estatura[25];
 
     for (int i=0; i<25; i++){
-        cout << "Ingrese la estatura del alumno: ";
+        cout << "Ingrese la estatura del alumno " << i+1 << ": ";
         cin >> estatura[i];
     }
 
@@ -59,7 +59,7 @@ void comparacion(float estatura[])
         }
     }
 
-    cout << "El numero de estaturas que estan arriba de la media o igual a la medida son: " << contadorArriba;
+    cout << "El numero de estaturas que estan arriba de la media o igual a la media son: " << contadorArriba;
     cout << endl << endl;
 
     cout << "El numero de estaturas que estan abajo de la media son: " << contadorAbajo;
